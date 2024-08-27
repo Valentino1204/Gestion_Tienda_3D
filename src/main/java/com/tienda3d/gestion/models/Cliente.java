@@ -19,13 +19,13 @@ public class Cliente {
     @Getter @Setter @Column(name = "email")
     private String email;
     @Getter @Setter @Column(name = "telefono")
-    private int telefono;
+    private Long telefono;
     @Getter @Setter @Column(name = "cuit")
-    private int cuit;
+    private Long cuit;
 
     public Cliente(){}
 
-    public Cliente(Long id, String nombre, String apellido, String email, int telefono, int cuit) {
+    public Cliente(Long id, String nombre, String apellido, String email, Long telefono, Long cuit) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;

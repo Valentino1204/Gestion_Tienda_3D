@@ -10,12 +10,11 @@
 	</parent>
 	<groupId>com.tienda3d</groupId>
 	<artifactId>gestion</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>0.0.1</version>
 	<name>gestion</name>
 	<description>Programa de Gestion de Tienda 3D</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -50,6 +49,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 
 		<dependency>
 			<groupId>mysql</groupId>
