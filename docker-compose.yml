@@ -1,6 +1,6 @@
 services:
   app_gestion_tienda:
-    build: app_gestion
+    build: Gestion_Tienda_3D
     mem_limit: 512m
     ports:
       - "8080:8080"
